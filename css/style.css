@@ -3,3 +3,15 @@ body {
   padding-top: 50px;
   padding-bottom: 20px;
 }
+.icon {
+	background: url(../images/id1CYq.png)no-repeat;
+	width: 32px;
+	height: 32px;
+	display: inline-block;
+}
+.icon.cart {
+	background-position: -128px -192px;
+}
+.icon.search {
+	background-position: -228px -167px;
+}
