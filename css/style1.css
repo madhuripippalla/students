@@ -1,3 +1,96 @@
+
+.wrap {
+	background-image: url(../images/Zigzag.png) repeat-x scroll 0 0 ;
+    margin: 0 auto;
+    width: 100%;
+    overflow: hidden;
+}
+.content {
+	margin: 0 auto;
+	padding: 2.2em 0 0 0;
+	width: 90%;
+	max-width: 1200px;
+	font-size: 100%;
+}
+aside {
+	float: left;
+    padding: 0;
+    margin: .4em 2.5em 3.5em 0;
+    width: 22.25%;
+    color: #333;
+}
+aside a {
+	color: #333;
+	text-decoration: none;
+}
+aside p {
+	color: #999;
+}
+section {
+	float: left;
+    width: 49.5%;
+    padding: 0;
+    margin: 0 2.5em 3.5em 0;
+}
+section a{
+	color: #3b98b2;
+	text-decoration: none;
+}
+h3 {
+	text-transform: uppercase;
+	padding: 0;
+	margin-bottom: 4px;
+	font-family: sans-serif;
+	font-style: normal;
+	font-size: 1em;
+	color: #999;
+}
+h1 {
+	font-size: 30px;
+}
+h1 a {
+	color: #333333;
+}
+p {
+	font-size: 18px;
+}
+a:hover { 
+    background-color: #3b98b2;
+}
+.author {
+	color: #333;
+    font-style: normal;
+    text-transform: uppercase;
+}
+section img {
+    margin: 0 auto 1.2em 0;
+    display: block;
+    text-align: center;
+    width: 500px;
+    height: auto;
+}
+.side ul li {
+    font-size: .875em;
+    color: #888888;
+    margin-bottom: .5em;
+    list-style: none;
+}
+.side a {
+	text-decoration: none;
+	color: #333;
+}
+.copy {
+    float: left;
+    padding: 1em 0 0 0;
+    color: #6E7C82;
+}
+article blockquote {
+    color: #555;
+    font-style: italic;
+    line-height: 1em;
+    padding: 0px 0px 0px 1em;
+    border-left: 4px solid #ADD3DD;
+}
 body {
 	margin:0;
 	padding: 0;
@@ -64,3 +157,4 @@ ul {
 	font-size: 20px;
 	color:#DCDCDC;
 }
+
