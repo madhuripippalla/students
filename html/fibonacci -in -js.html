@@ -1,0 +1,24 @@
+<html>
+<body>
+	<h1>Fibonacci series In Javascript</h1>
+	<p id="output"></p>
+	<script type="text/javascript">
+		var series = function (n) {
+			var a = 0,
+				b = 1,
+				c = 1,
+				obj = document.getElementById("output"),
+				array = [];	
+			for (var i = 0; i <= n; i++) {
+				array.push(c);
+				c = a+b;
+				a = b;
+				b = c;
+			}
+			obj.innerHTML = array.join('<br/>');
+		}	
+
+		series(100);
+	</script>
+</body>
+</html>

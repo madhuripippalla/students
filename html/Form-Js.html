@@ -1,0 +1,23 @@
+<html>
+<head>
+	<SCRIPT TYPE="text/javascript">
+		function add(){
+			var a=parseInt(document.addform.first.value),
+				b=parseInt(document.addform.second.value),
+				c = a + b;
+				document.getElementById("result").innerHTML=c;
+			}
+	</SCRIPT>
+</head>
+<body>
+	<form name="addform">
+		Number1:</br>
+		<input  type="text" name="first" ></br>
+		Number2:</br>
+		<input  type="text" name="second" ></br></br>
+		<input type="button" value="Add" onclick="add()">
+	</form>
+	Result is
+	<div id="result"></div>
+</body>
+</html>
